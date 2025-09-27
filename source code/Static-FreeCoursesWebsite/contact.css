@@ -1,0 +1,29 @@
+ body {
+      background-color: #000; /* Black background */
+      color: #ccc;            /* Light gray text */
+    }
+    .form-control, .form-control:focus {
+      background-color: #333;
+      color: #fff;
+      border-color: rgb(100, 0, 85); /* Bootstrap warning */
+    }
+    .form-label {
+      color: #000000;
+    }
+    .btn-custom {
+      background-color: rgb(83, 0, 70);
+      color: #fff;
+      
+    }
+    .btn-custom:hover {
+      background-color: rgb(100, 0, 85);
+    }
+    .form-container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: #d8d8d8;
+      border-radius: 10px;
+      border: 2px solid rgb(71, 0, 60);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* warning shadow */
+    }
